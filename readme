@@ -1,0 +1,53 @@
+# Flipping Cards with Code: My Journey Building a Memory Matching Game with HTML, CSS & JavaScript
+
+When I decided to challenge myself with a fun web-based game, I chose one that blends logic, memory, and a splash of design — the classic **Memory Card Matching Game**. It's a game that seems simple on the surface but is packed with interesting development challenges and UI decisions. Here's a walkthrough of my experience building it from scratch.
+
+---
+
+## 🎯 Why Memory Matching?
+
+I picked a memory game for several reasons:
+
+- **Classic Brain Teaser**: Everyone enjoys testing their memory. It’s a game that never gets old.
+- **Perfect Beginner Project**: The logic is approachable but still requires careful thought.
+- **Design-Friendly**: There's room to play with colors, animations, and UI/UX.
+
+My goal was to build a clean and responsive game with animations, a matching system, and a restart functionality — all with vanilla HTML, CSS, and JavaScript.
+
+---
+
+## 🧰 The Stack: HTML + CSS + JavaScript
+
+The core of this game relies on the classic frontend trio:
+
+- **HTML (`index.html`)**: Defines the layout of the game board, cards, header, and restart button.
+- **CSS (`style.css`)**: Handles the visual appeal — card flipping, hover effects, grid layout, and responsive design.
+- **JavaScript (`script.js`)**: Implements the game logic: shuffling, matching cards, handling states, and resetting the board.
+
+---
+
+## 🚀 Development Highlights
+
+Here’s a glimpse into how I broke down the project and the main features I implemented:
+
+### 1. **Game Layout**
+- A grid of cards (typically 4x4 or 6x6)
+- Each card has a front (hidden) and a back (revealed on flip)
+- A simple score or attempt counter and a restart button
+
+### 2. **Card Flipping & Matching Logic**
+- Click events to flip cards
+- Match detection logic (based on a `data-card` attribute or image matching)
+- Cards stay revealed if matched, flip back if not
+
+### 3. **Shuffling the Deck**
+- Cards are randomly shuffled at the start using the **Fisher-Yates algorithm**
+- Ensures a unique layout on every playthrough
+
+```javascript
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
