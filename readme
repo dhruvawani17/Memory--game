@@ -1,53 +1,65 @@
-# Flipping Cards with Code: My Journey Building a Memory Matching Game with HTML, CSS & JavaScript
+<h1 align="center">🧠 Memory Card Matching Game 🎴</h1>
 
-When I decided to challenge myself with a fun web-based game, I chose one that blends logic, memory, and a splash of design — the classic **Memory Card Matching Game**. It's a game that seems simple on the surface but is packed with interesting development challenges and UI decisions. Here's a walkthrough of my experience building it from scratch.
+<p align="center">
+  Flip. Match. Win. Repeat!<br/>
+  A fast-paced, brain-boosting card game built with 💻 HTML, 🎨 CSS, and 🧠 JavaScript!
+</p>
 
----
-
-## 🎯 Why Memory Matching?
-
-I picked a memory game for several reasons:
-
-- **Classic Brain Teaser**: Everyone enjoys testing their memory. It’s a game that never gets old.
-- **Perfect Beginner Project**: The logic is approachable but still requires careful thought.
-- **Design-Friendly**: There's room to play with colors, animations, and UI/UX.
-
-My goal was to build a clean and responsive game with animations, a matching system, and a restart functionality — all with vanilla HTML, CSS, and JavaScript.
+<p align="center">
+  <img src="https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif" width="250" alt="Memory Game GIF">
+</p>
 
 ---
 
-## 🧰 The Stack: HTML + CSS + JavaScript
+## 🚀 About the Project
 
-The core of this game relies on the classic frontend trio:
+Welcome to the **Memory Card Matching Game** — a classic web-based game designed to challenge your memory and reflexes. Whether you're here to train your brain or just kill a few minutes, this game brings a simple idea to life with some slick frontend magic.
 
-- **HTML (`index.html`)**: Defines the layout of the game board, cards, header, and restart button.
-- **CSS (`style.css`)**: Handles the visual appeal — card flipping, hover effects, grid layout, and responsive design.
-- **JavaScript (`script.js`)**: Implements the game logic: shuffling, matching cards, handling states, and resetting the board.
+I built this project to sharpen my JavaScript skills, explore DOM manipulation, and have fun creating something that anyone can enjoy in a browser.
 
 ---
 
-## 🚀 Development Highlights
+## 🎮 How to Play
 
-Here’s a glimpse into how I broke down the project and the main features I implemented:
+1. 🃏 Click on any two cards to flip them.
+2. ✅ If they match, they stay flipped!
+3. ❌ If they don't match, they flip back — so remember their positions!
+4. 🔄 Match all pairs with the fewest moves possible.
 
-### 1. **Game Layout**
-- A grid of cards (typically 4x4 or 6x6)
-- Each card has a front (hidden) and a back (revealed on flip)
-- A simple score or attempt counter and a restart button
+It's that easy... but can you master it?
 
-### 2. **Card Flipping & Matching Logic**
-- Click events to flip cards
-- Match detection logic (based on a `data-card` attribute or image matching)
-- Cards stay revealed if matched, flip back if not
+---
 
-### 3. **Shuffling the Deck**
-- Cards are randomly shuffled at the start using the **Fisher-Yates algorithm**
-- Ensures a unique layout on every playthrough
+## 🛠️ Tech Stack
 
-```javascript
-function shuffle(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-}
+| Tech        | Role                          |
+|-------------|-------------------------------|
+| **HTML5**   | Structure & game layout       |
+| **CSS3**    | Styling, layout & animations  |
+| **JavaScript** | Game logic & interactions    |
+
+---
+
+## ✨ Features
+
+✨ **Smooth Flip Animations**  
+✨ **Shuffling Logic on Start**  
+✨ **Match Detection System**  
+✨ **Board Locking to Prevent Double Clicks**  
+✨ **Restart Button to Try Again**  
+✨ **Fully Responsive Design (Mobile-friendly!)**
+
+> Bonus: Built entirely with **vanilla JavaScript** – no frameworks, just brainpower 💡
+
+---
+
+## 🎨 Screenshots
+
+<p align="center">
+  <img src="assets/screenshot1.png" width="400" alt="Game Screenshot">
+  <img src="assets/screenshot2.png" width="400" alt="Game Screenshot">
+</p>
+
+---
+
+## 📦 Project Structure
