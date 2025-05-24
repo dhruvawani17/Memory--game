@@ -5,10 +5,6 @@
   A fast-paced, brain-boosting card game built with 💻 HTML, 🎨 CSS, and 🧠 JavaScript!
 </p>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif" width="250" alt="Memory Game GIF">
-</p>
-
 ---
 
 ## 🚀 About the Project
@@ -62,4 +58,13 @@ It's that easy... but can you master it?
 
 ---
 
-## 📦 Project Structure
+## 🧪 Try It Yourself
+
+**▶️ [Play Now](https://dhruvawani17.github.io/Memory--game/)**
+
+OR
+
+```bash
+git clone https://github.com/dhruvawani17/memory-card-game.git
+cd memory-card-game
+open index.html
