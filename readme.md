@@ -49,12 +49,6 @@ It's that easy... but can you master it?
 
 ---
 
-## 🎨 Screenshots
-
-<p align="center">
-  <img src="assets/screenshot1.png" width="400" alt="Game Screenshot">
-  <img src="assets/screenshot2.png" width="400" alt="Game Screenshot">
-</p>
 
 ---
 
