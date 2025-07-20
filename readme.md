@@ -1,4 +1,4 @@
-<h1 align="center">🧠 Memory Card Matching Game! 🎴</h1>
+<h1 align="center">🧠 Memory Card Matching Game 🎴</h1>
 
 <p align="center">
   Flip. Match. Win. Repeat!<br/>
